@@ -1,0 +1,4 @@
+com\sabitov\repos\JsonWeatherParserService.class
+com\sabitov\helper\PostgresConnectionHelper.class
+com\sabitov\servlets\HandlerServlet.class
+com\sabitov\servlets\MainServlet.class
