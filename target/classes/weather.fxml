@@ -19,5 +19,10 @@
     <Label fx:id="min_temperature"/>
     <Label fx:id="feelsLike"/>
     <Label fx:id="description"/>
+    <Label fx:id="humidity"/>
+    <Label fx:id="pressure"/>
+    <Label fx:id="wind"/>
+
+
 
 </VBox>

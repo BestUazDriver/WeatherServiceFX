@@ -24,6 +24,12 @@ public class FxApp {
         private Label feelsLike;
         @FXML
         private Label description;
+        @FXML
+        private Label humidity;
+        @FXML
+        private Label pressure;
+        @FXML
+        private Label wind;
 
 
         @FXML
@@ -35,5 +41,8 @@ public class FxApp {
             min_temperature.setText("Temp min: " + result.get("temp_min"));
             feelsLike.setText("Feels like: " + result.get("feels_like"));
             description.setText("Description: " + result.get("description"));
+            humidity.setText("Humidity: "+result.get("humidity"));
+            pressure.setText("Pressure: "+result.get("pressure"));
+            wind.setText("Wind: "+result.get("wind"));
         }
 }
